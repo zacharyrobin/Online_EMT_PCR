@@ -1,0 +1,206 @@
+html body {
+	font-family:Helvetica Neue;
+}
+
+html {
+	background-color:#F1F1F1;
+	margin:0 0 0 0;
+}
+
+body{
+	width:100%;
+	background-color:white;
+	display:block;
+	margin:0 auto 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+header {
+	text-align:center;
+}
+
+h1{
+	line-height:1;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    -o-transition:.25s;
+  	-ms-transition:.25s;
+  	-moz-transition:.25s;
+  	-webkit-transition:.25s;
+    transition: 0.25s;
+    outline: none;
+}
+
+input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(46, 100, 254, 1);
+    border: 1px solid rgba(46, 100, 254, 1);
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+/* For transforming the icon */
+#container {
+    display: inline-block;
+    cursor: pointer;
+    background-color:#ED4882;
+    position:fixed;
+    padding:5px;
+    border-radius:100px;
+    padding-left:10px;
+    padding-right: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+#bar1, .bar2, .bar3 {
+    width: 23px;
+    height: 3px;
+    background-color:white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+
+.menuContainer {
+		padding-left:13.5%;
+		position:absolute;
+		top:60px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    padding-bottom:60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color:#E6E8E6;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    text-decoration:underline;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/* ------------- */
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: #E6E8E6;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width:100%;
+    height:25%;
+
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color:black;
+    display:none;
+    padding: 50px 50px;
+    height: 100%;
+}
+
+
+#Home {background-color:#FDCA40;}
+#News {background-color:#13848E;}
+#Contact {background-color:#F07C31;}
+#About {background-color:#773791;}
+
+.contentContainer {
+	background-color:white;
+	padding:100px 20px;
+	width:75%;
+	display:block;
+	margin:0 auto 0;
+/*	border: 1px solid black;*/
+	box-shadow: 0 0 20px black;
+}
+
+.header {
+	text-align:center;
+}
+
+.inline-blocks {
+	display:inline-block;
+	border:2px solid red;
+}	
+
